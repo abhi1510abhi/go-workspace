@@ -16,4 +16,7 @@ func main() {
 	}
 
 	fmt.Println("length :", len(num))
+	var sliceArray = num[10:20]
+	fmt.Println("splice Array", sliceArray)
+	fmt.Println("splice Array length", len(sliceArray))
 }

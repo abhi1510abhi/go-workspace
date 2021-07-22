@@ -19,4 +19,12 @@ func main() {
 	var sliceArray = num[10:20]
 	fmt.Println("splice Array", sliceArray)
 	fmt.Println("splice Array length", len(sliceArray))
+	
+	// creating dynamic array Slice
+
+	var d []int
+
+	d = append(d, 10, 20, 30)
+	fmt.Println("d", d)
+	fmt.Println(len(d))
 }
